@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#ubuntu-wallpaper {
+  background-image: url("/src/assets/bg/ubuntu-wallpaper.jpg");
+}
+
+#windows-wallpaper {
+  background-image: url("/src/assets/bg/windows-wallpaper.jpg");
+}
+
+#mac-wallpaper {
+  background-image: url("/src/assets/bg/mac-wallpaper.jpg");
+}
+.wallpapered {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hoverPrograms {
+  border: 1px solid #ffffff00;
+}
+
+.hoverPrograms:hover {
+  border: 1px solid #fff;
+  background-color: #adadad44;
+}
+.hoverPrograms:active {
+  border: 1px solid #bebffd;
+  background-color: #a7c3ff44;
+}
+
+.console {
+  width: 1000px;
+  height: 700px;
+  border-radius: 20px;
+  background-color: rgba(61, 61, 61, 0.7);
+}
+#console-nav {
+  width: 1000px;
+  height: 70px;
+  border-radius: 20px 20px 0 0;
+  background-color: #242424;
+}
+.nav-btn {
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin-left: 20px;
+}
+#closeBtn {
+  background-color: #ff4444;
+}
+#middleBtn {
+  background-color: #ffb342;
+}
+#lastBtn {
+  background-color: #68ff77;
+}
+#spacerNav {
+  width: 135px;
+}
+#console-content {
+  width: 1000px;
+  height: 630px;
+  padding: 50px 25px;
+  max-height: 630px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: #d9d9d9 transparent;
+}
+
+.badged {
+  height: 30px;
+  padding: 2.5px;
+  width: fit-content;
+  gap: 5px;
+}
+#f-badged {
+  background-color: #288ad6;
+  height: 30px;
+}
+#s-badged {
+  background-color: #16c98d;
+  height: 30px;
+}
+#t-badged {
+  background-color: #ffc83f;
+  height: 30px;
+}
+
+.h-30px {
+  height: 30px;
+}
+
+#commandInput {
+  background: transparent;
+}
+#commandInput:focus {
+  outline: none;
+}
